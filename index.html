@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>
-        Button Download
+        Обратный таймер
     </title>
 </head>
 <body>
-    <header>Button Download</header>
     <section>
-
+        <div id="timer" style="display: none;" class="timer">
+            <h1 id="chandeTitle">Осталось: <span id="time">10</span> секунд </h1>
+        </div>
+        <button id="downloadBtn">Скачать файл</button>
+        <a id="downLoadLink" style="display: none;" href="./files/cat.jpg.zip" download></a>
     </section>
-    <footer>
-        2022
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
